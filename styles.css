@@ -1,0 +1,47 @@
+body {
+    background-color: #ffffff;
+    align-content: center;
+}
+
+main {
+    text-align: center;
+}
+
+#tope-titulo-cv {
+    margin: 80px;
+}
+
+#imagen-cv {
+    border-radius: 200px;
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+#titulo-cv {
+    background-color: #f2d5d5;
+    font-family: Roboto;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.subtitulos {
+    background-color: #f2d5d5;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: Nunito;
+}
+
+
+ul li {
+    font-family: Nunito;
+}
+
+#footer {
+    background-color: #e89292;
+    font-family: Nunito;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
