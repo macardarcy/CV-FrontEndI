@@ -1,14 +1,14 @@
 body {
     background-color: #ffffff;
     align-content: center;
+    margin: 0;
 }
 
-main {
-    text-align: center;
-}
-
-#tope-titulo-cv {
-    margin: 80px;
+/*Header with Nav*/
+header {
+    background-image: url(multimedia/map.jpeg);
+    height: 370px;
+    width: 100%;
 }
 
 #imagen-cv {
@@ -19,29 +19,61 @@ main {
 }
 
 #titulo-cv {
-    background-color: #f2d5d5;
-    font-family: Roboto;
+    color: black;
+    background-color: #F8EDED;
+    font-family: Roboto, sans-serif;
     font-size: 30px;
     letter-spacing: 1.5px;
+    margin-left: 390px;
+}
+
+.nav {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+
+}
+
+/* Main */
+main {
     text-align: center;
 }
 
 .subtitulos {
-    background-color: #f2d5d5;
+    background-color: #F8EDED;
     margin-left: 150px;
     margin-right: 150px;
-    font-family: Nunito;
+    font-family: Nunito, sans-serif;
 }
 
 
 ul li {
-    font-family: Nunito;
+    font-family: Nunito, sans-serif;
 }
 
-#footer {
-    background-color: #e89292;
-    font-family: Nunito;
+/*Sobre Mi*/
+#subtitulo-sobremi {
+    font-family: Nunito, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#descripcion {
+    font-family: Nunito, sans-serif;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+
+
+/*Footer*/
+.footer {
+    background-color: #F6DFEB;
+    font-family: Nunito, sans-serif;
     margin-left: 80px;
     margin-right: 80px;
+    text-align: center;
 }
 
+.icon-footer {
+    width: 50px;
+}
